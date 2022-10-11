@@ -1,5 +1,8 @@
 let emailUser = document.getElementById('userEmail').value;
 const allEmail = ["mario@gmail.com", "luca@gmail.com", "lucia@gmail.com","marco@gmail.it"]
+const bottone = document.getElementById('bottone');
+bottone.addEventListener('click',
+function () {
 
 for(let i = 0; i < allEmail.length; i++){
     if(emailUser == allEmail){
@@ -10,4 +13,5 @@ for(let i = 0; i < allEmail.length; i++){
         falso.innerText = ("Inserisci un email valida per parteciapre");
     }
 }
-let btn = document.querySelector('button');
+}
+)
